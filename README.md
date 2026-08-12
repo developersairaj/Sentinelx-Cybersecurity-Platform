@@ -4,45 +4,69 @@
 
 ### `CYBER DEFENSE COMMAND CENTER`
 
-**See the signal. Understand the risk. Take control.**
+**See the signal. Understand the threat. Control the risk.**
 
-<br>
+<br/>
 
-<img src="https://img.shields.io/badge/STATUS-ACTIVE%20DEVELOPMENT-00E5FF?style=for-the-badge&labelColor=050B14" />
-<img src="https://img.shields.io/badge/SECURITY-DEFENSIVE-7C3AED?style=for-the-badge&labelColor=050B14" />
-<img src="https://img.shields.io/badge/AI-POWERED-00FF9C?style=for-the-badge&labelColor=050B14" />
+[![Status](https://img.shields.io/badge/STATUS-IN%20DEVELOPMENT-00ff9d?style=for-the-badge&labelColor=05070a)](PROJECT_STATE.md)
+[![Next.js](https://img.shields.io/badge/NEXT.JS-14-ffffff?style=for-the-badge&logo=next.js&logoColor=white&labelColor=05070a)](frontend/)
+[![FastAPI](https://img.shields.io/badge/FASTAPI-PYTHON-00d9a6?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=05070a)](backend/)
+[![PostgreSQL](https://img.shields.io/badge/POSTGRESQL-16-336791?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=05070a)](backend/)
+[![Redis](https://img.shields.io/badge/REDIS-7-dc382d?style=for-the-badge&logo=redis&logoColor=white&labelColor=05070a)]
+[![Docker](https://img.shields.io/badge/DOCKER-READY-2496ed?style=for-the-badge&logo=docker&logoColor=white&labelColor=05070a)](docker-compose.yml)
 
-<br><br>
+<br/>
 
-[![Next.js](https://img.shields.io/badge/Next.js-14-000000?style=flat-square&logo=next.js)](https://nextjs.org/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat-square&logo=fastapi)](https://fastapi.tiangolo.com/)
-[![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python)](https://python.org/)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?style=flat-square&logo=postgresql)](https://postgresql.org/)
-[![Redis](https://img.shields.io/badge/Redis-7-DC382D?style=flat-square&logo=redis)](https://redis.io/)
-[![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?style=flat-square&logo=docker)](https://docker.com/)
-
-<br>
-
-**[ Explore the Project ](https://github.com/developersairaj/Sentinelx-Cybersecurity-Platform)**
+> **Enterprise cybersecurity intelligence — unified into one command center.**
 
 </div>
 
 ---
 
-<div align="center">
+<br/>
+
+## ⚡ THE MISSION
+
+Modern infrastructure produces thousands of security signals.
+
+**SentinelX turns those signals into decisions.**
 
 ```text
-╔══════════════════════════════════════════════════════════════════════╗
-║                         SENTINELX AI                                ║
-║                  CYBER DEFENSE COMMAND CENTER                      ║
-╠══════════════════════════════════════════════════════════════════════╣
-║                                                                      ║
-║   ASSETS ──► SCANS ──► CVEs ──► RISK ──► AI ──► ACTION             ║
-║      │         │         │        │       │        │                 ║
-║      └─────────┴─────────┴────────┴───────┴────────┘                 ║
-║                              │                                       ║
-║                       SECURITY INTELLIGENCE                          ║
-║                              │                                       ║
-║                       DEFENSIVE OPERATIONS                           ║
-║                                                                      ║
-╚══════════════════════════════════════════════════════════════════════╝
+                     ┌──────────────────────────────────┐
+                     │                                  │
+                     │          🛡️  SENTINELX AI        │
+                     │                                  │
+                     │      CYBER DEFENSE CENTER        │
+                     │                                  │
+                     └────────────────┬─────────────────┘
+                                      │
+            ┌─────────────────────────┼─────────────────────────┐
+            │                         │                         │
+            ▼                         ▼                         ▼
+      ┌────────────┐           ┌────────────┐           ┌────────────┐
+      │   ASSETS   │           │  THREATS   │           │    CVEs    │
+      │  DISCOVER  │           │  DETECT    │           │  ANALYZE   │
+      └──────┬─────┘           └──────┬─────┘           └──────┬─────┘
+             │                        │                        │
+             └────────────────────────┼────────────────────────┘
+                                      ▼
+                           ┌─────────────────────┐
+                           │    RISK ENGINE      │
+                           │                     │
+                           │  0 ─────────── 100  │
+                           └──────────┬──────────┘
+                                      │
+                                      ▼
+                           ┌─────────────────────┐
+                           │      AI LAYER       │
+                           │                     │
+                           │ EXPLAIN • PRIORITIZE│
+                           │      • RECOMMEND    │
+                           └──────────┬──────────┘
+                                      │
+                                      ▼
+                           ┌─────────────────────┐
+                           │   SECURITY POSTURE  │
+                           │                     │
+                           │      CONTROL        │
+                           └─────────────────────┘
