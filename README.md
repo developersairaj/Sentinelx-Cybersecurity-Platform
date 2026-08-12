@@ -1,50 +1,67 @@
 # 🛡️ SentinelX AI
-
-### ⚡ CYBER DEFENSE COMMAND CENTER
+### ⚡ Cyber Defense Command Center
 
 <p align="center">
-  <strong>DISCOVER • ANALYZE • PRIORITIZE • DEFEND</strong>
+  <strong>See the threat. Understand the risk. Defend with intelligence.</strong>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/STATUS-IN%20DEVELOPMENT-00ff9c?style=for-the-badge&labelColor=05070a">
-  <img src="https://img.shields.io/badge/AI-POWERED-a855f7?style=for-the-badge&labelColor=05070a">
-  <img src="https://img.shields.io/badge/SECURITY-DEFENSIVE-00d9ff?style=for-the-badge&labelColor=05070a">
-  <img src="https://img.shields.io/badge/DOCKER-READY-2496ED?style=for-the-badge&labelColor=05070a">
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Next.js-14-000000?style=flat-square&logo=next.js">
-  <img src="https://img.shields.io/badge/TypeScript-5.x-3178C6?style=flat-square&logo=typescript">
-  <img src="https://img.shields.io/badge/FastAPI-Python-009688?style=flat-square&logo=fastapi">
-  <img src="https://img.shields.io/badge/PostgreSQL-16-4169E1?style=flat-square&logo=postgresql">
-  <img src="https://img.shields.io/badge/Redis-7-DC382D?style=flat-square&logo=redis">
+  <img src="https://img.shields.io/badge/STATUS-IN%20DEVELOPMENT-00ff9d?style=for-the-badge&labelColor=080b12" alt="Status"/>
+  <img src="https://img.shields.io/badge/AI-POWERED-8b5cf6?style=for-the-badge&labelColor=080b12" alt="AI"/>
+  <img src="https://img.shields.io/badge/SECURITY-DEFENSE-00d9ff?style=for-the-badge&labelColor=080b12" alt="Security"/>
+  <img src="https://img.shields.io/badge/LICENSE-PRIVATE-ff3366?style=for-the-badge&labelColor=080b12" alt="License"/>
 </p>
 
 ---
 
-## 🚨 SEE THE THREAT. UNDERSTAND THE RISK. DEFEND WITH INTELLIGENCE.
+## 🌐 What is SentinelX?
 
-**SentinelX AI** is an enterprise-inspired cybersecurity command center built to unify **asset intelligence, authorized network scanning, CVE intelligence, deterministic risk scoring, AI-assisted security explanations, threat management, analytics, and interactive network visualization** into one modern defensive platform.
+**SentinelX AI** is an enterprise-grade **Cyber Defense Command Center** designed to transform complex security data into clear, actionable intelligence.
 
-Instead of forcing security teams to jump between disconnected tools, SentinelX creates a unified operational picture.
+It brings **asset visibility, authorized network scanning, CVE intelligence, deterministic risk scoring, AI-assisted analysis, threat monitoring, digital-twin visualization, RBAC, and audit logging** into one unified security platform.
+
+> 🧠 **Built for defenders. Designed for visibility. Engineered for control.**
+
+---
+
+## ⚔️ Core Capabilities
+
+| Capability | Description |
+|---|---|
+| 🖥️ **Asset Intelligence** | Discover, organize, monitor, and manage your security assets |
+| 🔎 **Authorized Scanning** | Perform controlled network discovery against explicitly authorized targets |
+| 🧬 **CVE Intelligence** | Track vulnerabilities and connect affected assets with security findings |
+| 🎯 **Risk Engine** | Deterministic risk scoring for consistent security prioritization |
+| 🤖 **AI Security Assistant** | Generate intelligent explanations and security insights |
+| 🌐 **Digital Twin** | Visualize infrastructure and network relationships interactively |
+| 🚨 **Threat Intelligence** | Track security events and build a unified threat timeline |
+| 📊 **Security Analytics** | Transform security telemetry into meaningful dashboards |
+| 👥 **RBAC** | Role-based access control for enterprise environments |
+| 📝 **Audit Logging** | Maintain traceable records of security-sensitive actions |
+| 📄 **Security Reports** | Generate structured security reports for decision makers |
+
+---
+
+## 🧠 SentinelX Architecture
 
 ```text
-                         🛡️ SENTINELX AI
-                    CYBER DEFENSE COMMAND CENTER
-                               │
-        ┌──────────────────────┼──────────────────────┐
-        ▼                      ▼                      ▼
-   🖥️ ASSETS               🔎 SCANS               🧬 CVEs
-        │                      │                      │
-        └──────────────────────┼──────────────────────┘
-                               ▼
-                       ⚠️ RISK ENGINE
-                               │
-              ┌────────────────┼────────────────┐
-              ▼                ▼                ▼
-           🤖 AI           📊 ANALYTICS      🗺️ DIGITAL TWIN
-              │                │                │
-              └────────────────┼────────────────┘
-                               ▼
-                      🎯 DEFENSIVE ACTION
+                         ┌──────────────────────────┐
+                         │       SENTINELX AI       │
+                         │   CYBER DEFENSE CENTER   │
+                         └────────────┬─────────────┘
+                                      │
+             ┌────────────────────────┼────────────────────────┐
+             │                        │                        │
+             ▼                        ▼                        ▼
+      ┌─────────────┐          ┌─────────────┐          ┌─────────────┐
+      │   FRONTEND  │          │   BACKEND   │          │    AI /     │
+      │  Next.js 14 │◄────────►│   FastAPI   │◄────────►│ INTELLIGENCE│
+      └──────┬──────┘          └──────┬──────┘          └─────────────┘
+             │                        │
+             │                ┌───────┴────────┐
+             │                │                │
+             ▼                ▼                ▼
+      ┌─────────────┐   ┌─────────────┐ ┌─────────────┐
+      │   Security  │   │ PostgreSQL  │ │    Redis    │
+      │  Dashboard  │   │    16       │ │      7      │
+      └─────────────┘   └─────────────┘ └─────────────┘
