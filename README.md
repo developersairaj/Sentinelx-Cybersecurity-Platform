@@ -1,82 +1,48 @@
-# SentinelX AI — Cyber Defense Command Center
+<div align="center">
 
-Enterprise cybersecurity command-center platform: asset inventory, authorized
-network scanning, CVE intelligence, deterministic risk scoring, AI-assisted
-explanations, digital-twin network visualization, and audit-logged RBAC.
+# 🛡️ SENTINELX AI
 
-## Stack
+### `CYBER DEFENSE COMMAND CENTER`
 
-- **Frontend**: Next.js 14 (App Router) · TypeScript · Tailwind CSS · shadcn/ui
-  · Framer Motion · React Three Fiber · React Flow · Recharts
-- **Backend**: FastAPI · Python 3.12 · SQLAlchemy 2.0 · PostgreSQL 16 · Redis 7
-- **Auth**: JWT (access + refresh) · Role-Based Access Control
+**See the signal. Understand the risk. Take control.**
 
-## Local Development
+<br>
 
-Prerequisites: Docker + Docker Compose, Node 20+, Python 3.12+ (only needed
-if you want to run services outside containers).
+<img src="https://img.shields.io/badge/STATUS-ACTIVE%20DEVELOPMENT-00E5FF?style=for-the-badge&labelColor=050B14" />
+<img src="https://img.shields.io/badge/SECURITY-DEFENSIVE-7C3AED?style=for-the-badge&labelColor=050B14" />
+<img src="https://img.shields.io/badge/AI-POWERED-00FF9C?style=for-the-badge&labelColor=050B14" />
 
-```bash
-cp .env.example .env
-# edit .env and set real secrets before running anything beyond local dev
+<br><br>
 
-docker compose up --build
-```
+[![Next.js](https://img.shields.io/badge/Next.js-14-000000?style=flat-square&logo=next.js)](https://nextjs.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat-square&logo=fastapi)](https://fastapi.tiangolo.com/)
+[![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python)](https://python.org/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?style=flat-square&logo=postgresql)](https://postgresql.org/)
+[![Redis](https://img.shields.io/badge/Redis-7-DC382D?style=flat-square&logo=redis)](https://redis.io/)
+[![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?style=flat-square&logo=docker)](https://docker.com/)
 
-- Frontend: http://localhost:3000
-- Backend API: http://localhost:8000/api/v1
-- API docs (dev only): http://localhost:8000/api/v1/docs
-- Postgres: localhost:5432
-- Redis: localhost:6379
+<br>
 
-Backend hot-reloads via uvicorn `--reload`; frontend hot-reloads via Next dev
-server. Both are bind-mounted into the containers.
+**[ Explore the Project ](https://github.com/developersairaj/Sentinelx-Cybersecurity-Platform)**
 
-### Running without Docker
+</div>
 
-```bash
-# backend
-cd backend
-python -m venv .venv && source .venv/bin/activate
-pip install -r requirements/dev.txt
-uvicorn app.main:app --reload
+---
 
-# frontend
-cd frontend
-npm install
-npm run dev
-```
+<div align="center">
 
-## Project Status
-
-See `PROJECT_STATE.md` for the current milestone, completed work, and what's
-next. This file is maintained incrementally as milestones land — do not
-regenerate the project from scratch between milestones.
-
-## Milestone Roadmap
-
-1. **Project foundation & dev environment** ✅ (this milestone)
-2. Database + SQLAlchemy models + migrations
-3. Authentication + JWT + RBAC
-4. Application shell + dashboard UI
-5. Asset inventory
-6. Authorized network scanner integration
-7. CVE intelligence and vulnerability management
-8. Risk scoring engine
-9. AI-powered security explanations
-10. Threat timeline and event management
-11. Analytics and visualization
-12. Interactive Digital Twin network visualization
-13. PDF security report generation
-14. User management
-15. Audit logging
-16. Security hardening
-17. Testing and quality assurance
-18. Production deployment
-
-## Security Note
-
-The network scanner (Milestone 6) is scoped to **explicitly authorized
-targets only** and will require a signed authorization record before any
-scan job can run. This platform does not implement exploitation, credential
-harvesting, persistence, or evasion tooling.
+```text
+╔══════════════════════════════════════════════════════════════════════╗
+║                         SENTINELX AI                                ║
+║                  CYBER DEFENSE COMMAND CENTER                      ║
+╠══════════════════════════════════════════════════════════════════════╣
+║                                                                      ║
+║   ASSETS ──► SCANS ──► CVEs ──► RISK ──► AI ──► ACTION             ║
+║      │         │         │        │       │        │                 ║
+║      └─────────┴─────────┴────────┴───────┴────────┘                 ║
+║                              │                                       ║
+║                       SECURITY INTELLIGENCE                          ║
+║                              │                                       ║
+║                       DEFENSIVE OPERATIONS                           ║
+║                                                                      ║
+╚══════════════════════════════════════════════════════════════════════╝
